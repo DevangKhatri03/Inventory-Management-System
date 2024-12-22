@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory Management System", "Inventory Management System\Inventory Management System.csproj", "{978A9F70-E09B-4682-8142-EA0C28D606BA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2E382305-9B52-4069-AA12-09CDFA4B46F3} = {2E382305-9B52-4069-AA12-09CDFA4B46F3}
+		{97F7D9D3-978A-4514-88BF-CCA4CD5B8244} = {97F7D9D3-978A-4514-88BF-CCA4CD5B8244}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI-IMS", "WebAPI-IMS\WebAPI-IMS.csproj", "{2E382305-9B52-4069-AA12-09CDFA4B46F3}"
 EndProject
